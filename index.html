@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Sitio Web Interactivo</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <h1>Bienvenido a Mi Sitio Web</h1>
+    <p>Construido con HTML, CSS y JavaScript desde cero.</p>
+  </header>
+
+  <main class="contenedor">
+    
+    <section class="tarjeta">
+      <h2>Tarjeta Interactiva</h2>
+      <p>Haz clic en el botón de abajo para cambiar el color de fondo de esta sección.</p>
+      <button id="btnCambiarColor">Cambiar color</button>
+    </section>
+
+    <section class="tarjeta">
+      <h2>Envía un mensaje</h2>
+      <form id="miFormulario">
+        <label for="nombre">Tu Nombre:</label>
+        <input type="text" id="nombre" placeholder="Ej. Juan Pérez" required>
+        <button type="submit">Enviar</button>
+      </form>
+      <p id="mensajeConfirmacion" class="oculto"></p>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2026 - Creado por mí en GitHub</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
